@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Burder Builder Api</title>
+</head>
+<body>
+	Api is running ...
+	<hr />
+	<h2>
+		Order:
+
+	</h2>
+	<ul>
+		<li>
+			AddOrder
+			<ul>
+				<li>
+					In:
+						{
+						token:string,
+						meat:number,
+						cheese:number,
+						sala:number,
+						total_price:number
+						}
+				</li>
+				<li>
+					Out:
+						{
+						status:boolean,
+						message:string,
+						order_number:number
+						}
+				</li>
+			</ul>
+
+		</li>
+
+
+		<li>GetAllOrders
+			<ul>
+				<li>
+					In:
+					{
+					token:string
+					}
+				</li>
+				<li>
+					Out:order[]
+					order : {
+						
+
+					}
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<h2>
+		User:
+
+	</h2>
+	<ul>
+		<li>Singin</li>
+		<li>Singup</li>
+	</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+# ignore a single file
+
+
+# ignore an entire directory
+/.git/
+/.vs/
+/bin/
+/obj/
+/packages/
+
+# ignore a file type
+
+
+# add an exception (using !) to the preceding rule to track a specific file
